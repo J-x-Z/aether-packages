@@ -1,0 +1,13 @@
+[package]
+name = "jxz"
+version = "1.0.0"
+description = "AetherLang Package Manager - Install and manage AetherLang packages"
+authors = ["J-x-Z"]
+license = "MIT"
+repository = "https://github.com/J-x-Z/aether-packages"
+
+[build]
+main = "src/main.aeth"
+
+[bin]
+jxz = "bin/jxz"
