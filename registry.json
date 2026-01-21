@@ -1,0 +1,12 @@
+{
+  "registry": "aether-packages",
+  "version": "1.0.0",
+  "packages": [
+    {
+      "name": "hello",
+      "versions": ["1.0.0"],
+      "description": "Hello World example package",
+      "latest": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+// Hello World - AetherLang Example Package
+// This is a simple example package for the jxz package manager
+
+extern "C" {
+    fn puts(s: *u8) -> i32;
+}
+
+fn main() -> i32 {
+    puts("Hello from AetherLang!\0" as *u8);
+    puts("This package was installed via jxz.\0" as *u8);
+    puts("\0" as *u8);
+    puts("AetherLang - The Future of Systems Programming\0" as *u8);
+    return 0;
+}
